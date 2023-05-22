@@ -8,7 +8,7 @@ const crystalLabel = document.querySelector(".crystals");
 const autoClickerButton = document.querySelector(".auto-clicker");
 let spaceshipOriginal = document.querySelector(".spaceship");
 
-let crystals = 10000000000000;
+let crystals = 0;
 let clickAmount = 1;
 crystalLabel.innerHTML = "Crystals: 0";
 let armorLevel = 0;
